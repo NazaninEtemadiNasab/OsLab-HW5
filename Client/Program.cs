@@ -39,10 +39,6 @@ public class Program
                 }
             }
         }
-        catch (SocketException)
-        {
-            Console.WriteLine("Failed to connect.");
-        }
         catch (FileNotFoundException)
         {
             Console.WriteLine("File not found.");
